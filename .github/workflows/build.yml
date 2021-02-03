@@ -1,4 +1,4 @@
-name: Build blog github page
+name: build homepage
 
 on: [push]
 
