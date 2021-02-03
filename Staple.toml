@@ -1,0 +1,18 @@
+[site]
+title = "Staple Site"
+subtitle = ""
+description = ""
+keywords = []
+author = ""
+email = ""
+utc_offset = 800
+theme = "staple"
+domain = ""
+domain_root = ""
+default_template = "article.html"
+
+[extra]
+
+[hook]
+before_build = []
+after_build = []
