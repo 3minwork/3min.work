@@ -21,8 +21,8 @@ jobs:
         chmod 777 $GITHUB_WORKSPACE/bin/staple
     - name: Build blog
       run: $GITHUB_WORKSPACE/bin/staple build
-    - name: Deploy site to gh-pages branch
-      uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        site-directory: public
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
