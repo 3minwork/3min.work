@@ -4,4 +4,3 @@
  - template = index.html
  - draw = false
 
-hello
