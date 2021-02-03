@@ -11,8 +11,13 @@ domain = ""
 domain_root = ""
 default_template = "article.html"
 
+[[statics]]
+from = "CNAME"
+to = "CNAME"
+
 [extra]
 
 [hook]
 before_build = []
 after_build = []
+
